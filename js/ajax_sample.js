@@ -23,13 +23,14 @@ function getData() {
                 "content": "[Estudio Dpro] Vol.10 “¡Haz gemir al entrevistador! ] Medidas de entrevista para ingenieros!",
                 "url": "https://www.youtube.com/embed/q1AvJPTrfM4"
             }
+            // ...
         ];
         data = simulatedResponse;
     }
 }
 
 function changeVideo() {
-    getData(); // Cargar los datos si aún no se han cargado
+    getData(); // Cargar los datos 
 
     if (data && number < data.length) {
         const currentItem = data[number];
